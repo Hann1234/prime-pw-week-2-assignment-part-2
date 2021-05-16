@@ -48,7 +48,7 @@ if (name === 'Mary') {
 //We are creating a variable named secret that is undefined and a variable named code that is equal to number 123.
 //We then enter a conditional that checks if the code is 123. If the code is 123 then secret gets the strng 'super' and code's number value is doubled.
 //If the value of code is greater than 250, then the variable secret is set to the string 'duper'
-//We then console log the variable secret which is either string 'super' or 'duper'. Code is defined as 123 so we console log 'super'
+//We then console log the variable secret which is either string 'super' or 'duper'. Code is defined as number 123 so we console log 'super'
 
 //CODE
 /*
@@ -70,10 +70,12 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-//
-//
-//
-//
+//First we are defining the variables isStudent with a boolean value of true, age as number 34, and zip as number 55407.
+//next we enter a conditional that is checking more than 1 condition at a time. If the variable isStudent is true AND the number zip is greater than 80000 then we would console log 'You're a student on the West Coast!'
+//If both of those arent satisfied then we are checking if isStudent is false OR the variable age number is less than 30. If either one of those is satisfied then we console log 'What are your hobbies?'
+//if niether of those conditions were met then we check if isStudent is true then we console log 'Welcome to Prime!'
+// If NONE of those conditions are met, then we are left with all other inputs giving us console log 'How about the weather?' (program enters generic conversation mode)
+//because our zip is not greater than 80000, our age is not less than 30, and isStudent is set as true, we console log 'Welcome to Prime!'
 
 //CODE
 /*
