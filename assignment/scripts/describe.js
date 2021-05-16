@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-//
-//
-//
-//
+//We are creating a variable named secret that is undefined and a variable named code that is equal to number 123.
+//We then enter a conditional that checks if the code is 123. If the code is 123 then secret gets the strng 'super' and code's number value is doubled.
+//If the value of code is greater than 250, then the variable secret is set to the string 'duper'
+//We then console log the variable secret which is either string 'super' or 'duper'. Code is defined as 123 so we console log 'super'
 
 //CODE
 /*
