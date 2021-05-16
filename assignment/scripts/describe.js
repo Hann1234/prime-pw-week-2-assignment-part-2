@@ -131,10 +131,20 @@ if (number >= 2) {
 // colorTwo is set to 'red', and mix is set to true. We check if mix is true
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
-/*
+/* FIX - colorOne and colorTwo are swapped, should be:
+// let colorOne = 'blue';
+// let colorTwo = 'red';
+
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
+
+/* FIX - missing colorTwo set to 'purple'
+// Should be:
+//if (mix === true) {
+  colorOne = 'purple';
+  colorTwo = 'purple';
+}
 
 if (mix === true) {
   colorOne = 'purple';
