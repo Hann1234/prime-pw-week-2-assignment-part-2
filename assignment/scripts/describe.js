@@ -179,9 +179,21 @@ if (temp > 39 || time >= 4) {
 // We check if age is greater than or equal to minAge
 // -- it is, so we console.log 'enter'.
 
+//FIX - minAge is a constant, not a variable.
+// Should be:
+// let minAge = 21;
+
 /*
 let age = 21;
 const minAge = 21;
+
+// FIX - currently the reverse of what is described is writen even though the outcome will technically be the same.
+// Should be:
+// if(age >= minAge) {
+  console.log('enter');
+} else {
+  console.log('no entry');
+}
 
 if(minAge <= age) {
   console.log('no entry');
